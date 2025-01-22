@@ -1,7 +1,7 @@
 package com.sisyphus.common.security.feign;
 
 import java.util.Map;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Component;
 import com.sisyphus.common.core.constant.SecurityConstants;
 import com.sisyphus.common.core.utils.ServletUtils;

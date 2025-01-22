@@ -1,6 +1,6 @@
 package com.sisyphus.common.security.utils;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import com.sisyphus.common.core.constant.SecurityConstants;
 import com.sisyphus.common.core.constant.TokenConstants;

@@ -1,6 +1,6 @@
 package com.sisyphus.gen.domain;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
 import com.sisyphus.common.core.utils.StringUtils;
 import com.sisyphus.common.core.web.domain.BaseEntity;
 
