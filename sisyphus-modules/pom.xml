@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.sisyphus</groupId>
+        <artifactId>sisyphus</artifactId>
+        <version>3.6.5</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>sisyphus-system</module>
+        <module>sisyphus-gen</module>
+        <module>sisyphus-job</module>
+        <module>sisyphus-file</module>
+    </modules>
+
+    <artifactId>sisyphus-modules</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        sisyphus-modules业务模块
+    </description>
+
+</project>

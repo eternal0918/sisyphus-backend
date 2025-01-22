@@ -1,0 +1,2 @@
+com.sisyphus.common.log.service.AsyncLogService
+com.sisyphus.common.log.aspect.LogAspect

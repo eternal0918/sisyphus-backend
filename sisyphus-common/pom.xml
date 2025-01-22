@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.sisyphus</groupId>
+        <artifactId>sisyphus</artifactId>
+        <version>3.6.5</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>sisyphus-common-log</module>
+        <module>sisyphus-common-core</module>
+        <module>sisyphus-common-redis</module>
+        <module>sisyphus-common-seata</module>
+        <module>sisyphus-common-swagger</module>
+        <module>sisyphus-common-security</module>
+        <module>sisyphus-common-sensitive</module>
+        <module>sisyphus-common-datascope</module>
+        <module>sisyphus-common-datasource</module>
+    </modules>
+
+    <artifactId>sisyphus-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        sisyphus-common通用模块
+    </description>
+
+</project>
